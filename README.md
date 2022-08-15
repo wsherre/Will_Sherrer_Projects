@@ -1,2 +1,2 @@
-# Will_Sherrer_Projects
-pSome of the projects I've done in College at Clemson
+# Will Sherrer's Projects
+Some of the projects I've done in College at Clemson
