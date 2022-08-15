@@ -1,0 +1,433 @@
+/* You can implement your own css code*/
+
+#passwd_result{
+	background-color :#FF9900;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#upload_result{
+	background:#CC3300;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin-right:60%;
+}
+
+body{
+	margin: 0;
+	background: linear-gradient(to right, #303030 15%, #151515 15%, #151515 100%);
+	color: white;
+}
+h1, h2, h3{
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h2{
+	margin-top: 10px;
+}
+h1:hover{
+	text-decoration: underline;
+}
+.button {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #0000ff;
+	color: #ffffff;
+	padding: 5px 15px 5px 15px;
+	border-radius: 10px;
+	outline: 0;
+  }
+  .red_button {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 5px 15px 5px 15px;
+	border-radius: 10px;
+	outline: 0;
+  }
+button:hover{
+    border-color: white;
+}
+.red_button:hover{
+	border-color: white;
+}
+
+
+.table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+	margin: 0;
+}
+tbody{
+	width: 100%;
+}
+#container{
+	width: 100%;
+	margin: 0;
+}
+
+#table-scroll{
+	display: inline-block;
+	width: 100%;
+	max-height: 400px;
+	overflow: scroll;
+}
+#contact-table-scroll{
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+	overflow: scroll;
+}
+#table-scroll td{
+	padding: 10px;
+	padding-left: 0;
+	padding-right: 40px;
+	text-align: left;
+}
+.image-scroll{
+	display: block;
+	max-height: 600px;
+	overflow-y: auto;
+}
+.video-scroll{
+	display: block;
+	max-height: 1000px;
+	overflow-y: auto;
+}
+
+.div{
+	height: 70px;
+	margin-top: 50px;
+}
+
+.contact{
+	font: bold 13px Arial;
+	text-decoration: none;
+	background-color: #0000ff;
+	color: #ffffff;
+	padding: 5px;
+	display: inline;
+	border-radius: 10px;
+}
+.request{
+	font: bold 13px Arial;
+	text-decoration: none;
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 5px;
+	display: inline;
+	border-radius: 10px;
+}
+
+.text{
+	white-space: pre-wrap;
+}
+
+
+form{
+	margin:0px; padding:0px; display:inline;
+   }
+/*table, th, td {
+	border: 1px solid white;
+  }*/
+
+  td{
+	  padding-top: .5em;
+	  padding-bottom: .5em;
+	  color: white;
+  }
+
+#target { 
+	width: 300px; 
+	height: 200px; 
+
+} 
+  
+iframe { 
+	width: 100%; 
+	height: 100%; 
+	border: none; 
+} 
+
+.a {
+	font: bold 12px Arial;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: #00B8CC;
+	color: white;
+	padding: 5px 15px 5px 15px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #a0a0a0 #606060 #606060 #a0a0a0;
+}
+
+.a:hover{
+	/*border-color: darkgray lightgray lightgray darkgray;*/
+	border-color: white;;
+}
+
+#header{
+	max-height: 10%;
+	padding-top: 5px;
+	padding-left: 10px;;
+	padding-bottom: 30px; 
+	background-color: #303030; 
+	color: white;
+}
+#navbar{
+	width: 15%;
+	background-color: #303030;
+	overflow: auto;
+	position: fixed;
+}
+.nav_button{
+	width: 100%;
+	color: white;
+	font: bold 16px Arial;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #464646;
+}
+.nav_button:hover{
+	background-color: #202020;
+	border-color: initial;
+}
+.order_button{
+	width: 100px;
+	color: white;
+	font: bold 16px Arial;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #464646;
+}
+.order_button:hover{
+	background-color: #202020;
+	border-color: initial;
+}
+#inline{
+	margin-left: 15%; 
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 0;
+	background-color: #151515;
+	overflow: auto;
+}
+#home_inline{
+	margin-left: 15%; 
+	display: block;
+	height: 100%;
+	margin-top: 0;
+	background-color: #151515;
+	overflow: auto;
+}
+.ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 15%;
+	background-color: #303030;
+	height: 100%; /* Full height */
+	position: fixed; /* Make it stick, even on scroll */
+	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+  p{
+	  color: white;
+  }
+
+  video{
+	padding-left: 10px; 
+	padding-right: 10px;
+	width: 330px;
+	height: auto;
+  }
+
+  .src_name{
+	  color: lightgray;
+	  margin: 0;
+	  padding-left: 10px;
+	  padding-top: 5px;
+	  text-decoration: none;
+	  display: inline;
+  }
+  .src_title{
+	color: lightgray;
+	padding-left: 10px; 
+	padding-top: 5px; 
+	font: bold 22px Trebuchet MS;
+  }
+  ul.home{
+	  padding: 0;
+	  margin: 0;
+	  padding-left: 10px;
+  }
+  ul.home li{
+	margin: 0; 
+	display: inline;
+  }
+  #video{
+	display: block;
+	padding-bottom: 50px;
+  }
+  #image{
+	  display: block;
+	  padding-bottom: 100px;
+  }
+  .comment_num{
+	color: lightgray;
+	margin: 0; 
+	font: bold 22px Trebuchet MS;
+  }
+  .comment_title{
+	  display: inline;
+	  margin: 0;
+	  font-weight: 500;
+	  color: white;
+	  font-size: 1.3em;
+  }
+  .comment_time{
+	display: inline;
+	margin: 0;
+	font-weight: 800;
+	color: #909090;
+	font-size: 1em;
+}
+.comment_comment{
+	display: inline;
+	width: 100px;
+	height: 50px;
+	overflow: scroll;
+	margin: 0;
+	margin-top: 5px;
+	font-weight: 800;
+	color: white;
+	font-size: 1em;
+}
+.comment_title_red{
+	display: inline;
+	margin: 0;
+	font-weight: 500;
+	color: red;
+	font-size: 1.3em;
+}
+.img_background{
+	background-color: #151515;
+	width: 330px;
+	height: 350px;
+	z-index: 1;
+
+}
+.home_img{
+	width: 330px;
+	height: auto;
+}
+.title_input{
+	font: bold 20px Trebuchet MS;
+	margin-left: 40px;
+	background-color: #151515;
+	color: white;
+	width: 700px;
+	border-color: #151515;
+	resize: none;
+}
+.description_input{
+	font: 13px Trebuchet MS;
+	margin-left: 40px;
+	background-color: #151515;
+	color: white;
+	width: 700px;
+	overflow: scroll;
+	border-color: #151515;
+	resize: none;
+}
+.link_input{
+	font: 13px Trebuchet MS;
+	margin-left: 40px;
+	background-color: #151515;
+	color: white;
+	width: 700px;
+	overflow: scroll;
+	border-style: none;
+	resize: none;
+	margin-left: 0; 
+	display: inline;
+	height: 15px;
+}
+.media_user{
+	color: lightgray;
+	margin: 0;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left; 
+	margin-left: 30px; 
+	text-decoration: none;
+}
+.src_name:hover{
+	text-decoration: underline;
+}
+
+.cat_select{
+	display: inline;
+	margin-left: 20px;
+	color: white;
+	background-color: #303030;
+	border-color: #151515;
+	padding: 3px;
+}
+.new_category{
+	background-color: #303030; 
+	border-width: 2px;
+	color: white;
+
+}
+.new_category::placeholder{
+	color: white;
+}
+.category{
+	font: 16px Trebuchet MS;
+	margin-left: 40px; 
+	display: inline;
+}
+
+.cat_link{
+	font: 14px Trebuchet MS;
+	color: white;
+	text-decoration: none;
+}
+.cat_link:hover{
+	font: 18px Trebuchet MS;
+}
+.search{
+	background-color: #151515;
+	margin-top: 15px;
+	margin-left: 22%;
+	color: white;
+	width: 280px;
+	border-color: #c0c0c0;
+	height: 25px;
+}
+.search_button{
+	background-color: #151515;
+	padding: 3px;
+	color: #c0c0c0;
+}
+.cat_search{
+	display: inline;
+	margin-left: 20px;
+	color: #c0c0c0;
+	border-color: #c0c0c0;
+	padding: 3px;
+	background-color: #151515; 
+	margin-left: 0;
+}
