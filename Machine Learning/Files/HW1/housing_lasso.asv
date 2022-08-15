@@ -1,0 +1,27 @@
+close all;
+data = load('housing.data');
+x = data(:, 1:13);
+y = data(:, 14);
+[n, d] = size(x);
+seed = 2; rand('state',seed); randn('state', seed);
+perm = randperm(n); % remove any possible ordering fx
+x = x(perm,:); y = y(perm);
+[n, p] = size(x);
+lambdas = [logspace(-10, 10, 10)];
+Ntrain = 300;
+Xtrain = zscore(x(1:Ntrain,:)); ytrain = y(1:Ntrain);
+Xtest = zscore(x(Ntrain+1:end,:)); ytest = y(Ntrain+1:end);
+beta_array = [];
+beta = [];
+for i=1:length(lambdas)
+    lambda = lambdas(i);
+    beta = lassoAlg(Xtrain, ytrain, lambda);
+    beta_array(end+1) = beta;
+end
+
+hold on
+plot(log10(lambdas), beta_array, 'r-o', 'LineWidth', 2, 'MarkerSize', 4);
+ylabel('MSE');
+xlabel('Lambda');
+title("Lambda")
+hold off

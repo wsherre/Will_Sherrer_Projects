@@ -1,0 +1,45 @@
+clear all; close all; clc
+A = imread("Lenna.png");
+R = A(:, :, 1);
+G = A(:, :, 2);
+B = A(:, :, 3);
+
+%IR = im2double(R);
+%IG = im2double(G);
+%IB = im2double(B);
+
+[u1,s1,v1] = svd(R);
+[u2,s2,v2] = svd(IG);
+[u3,s3,v3] = svd(IB);
+%imshow("Lenna.png");
+c1 = zeros(size(IR));
+c2 = zeros(size(IG));
+c3 = zeros(size(IB));
+k = 15;
+for j=1:k
+    c1 = c1 + u1(:, j) * s1(j, j) * v1(:, j)';
+end
+for j=1:k
+    c2 = c2 + u2(:, j) * s2(j, j) * v2(:, j)';
+end
+for j=1:k
+    c3 = c3 + u3(:, j) * s3(j, j) * v3(:, j)';
+end
+imshow(c1);
+
+
+c1(k) = 1;
+c2(k) = 1;
+c3(k) = 1;
+
+
+c1 = im2uint8(c1);
+c2 = im2uint8(c2);
+c3 = im2uint8(c3);
+
+q(:, :, 1) = c1;
+q(:, :, 2) = c2;
+q(:, :, 3) = c3;
+
+imshow(q, []);
+
