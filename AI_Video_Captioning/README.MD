@@ -18,4 +18,4 @@ sh hw2_seq2seq.sh MSVD output.txt
 ```
 
 Model Implementation
-![LSTM_MODEL_IMAGE](/image/LSTM_model_image.png)
+![LSTM_MODEL_IMAGE](image/LSTM_model_image.png)
