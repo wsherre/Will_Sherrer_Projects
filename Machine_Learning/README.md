@@ -23,4 +23,5 @@ technique.
 ```
 
 The files folder contains the homeworks and MATLAB files
-used in the homeworks. The PDFs in the folders are only file of note to read.
+used in the homeworks included to show some of the problem solving I had to do.
+The PDFs in the folders are only file of note to read containing answers to the homeworks.
