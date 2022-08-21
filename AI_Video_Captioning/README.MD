@@ -1,26 +1,21 @@
 # 8430 HW2 Video Caption
 
+This is a Sequence to Sequence Artificial Intelligence model that reads in the frames of a video and 
+generates a caption of said video. The output for the videos will be in the output.txt file. 
+
 ## If program starts training then set num_epochs to 0 on line 40 in model_seq2seq.py
+## If you want the program to train then set num_epochs to any desired amount. 
 
-Run program by using shell script sh hw2_seq2seq.sh 'data_directory' 'output_file'
+Run the following command to add the dependencies for the project
 
-Data Directory should be MSVD folder which should match the hierarchy;
+```
+python3 -m pip install -r requirements.txt
+```
 
-MSVD Folder<br>
-|<br>
--->training_data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> feats (folder)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> video (folder)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> id.txt<br>
--->testing_data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> feats (folder)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> video (folder)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> id.txt<br>
---> training_label.json<br>
---> testing_label.json<br>
-
+Run program by using the shell script 
+```
+sh hw2_seq2seq.sh MSVD output.txt
+```
 
 Model Implementation
 ![LSTM_MODEL_IMAGE](/image/LSTM_model_image.png)
