@@ -1,4 +1,4 @@
-# 8430 HW2 Video Caption
+# Video Captioning Model
 
 This is a Sequence to Sequence Artificial Intelligence model that reads in the frames of a video and 
 generates a caption of said video. The output for the videos will be in the output.txt file. 
