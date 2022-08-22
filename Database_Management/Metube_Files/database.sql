@@ -1,6 +1,5 @@
--- MySQL dump 10.13  Distrib 8.0.27, for macos11.6 (x86_64)
 --
--- Host: mysql1.cs.clemson.edu    Database: project_gri3
+-- Host: Wills-Mac.attlocal.net    Database: metube
 -- ------------------------------------------------------
 -- Server version	5.5.52-0ubuntu0.12.04.1
 

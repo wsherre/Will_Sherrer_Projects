@@ -1,9 +1,9 @@
 <?php
 class dbh{
-	private $host = "mysql1.cs.clemson.edu";
-	private $user = "project_yl36";
-	private $pwd = "project-4620";
-	private $dbName = "project_gri3";
+	private $host = "Wills-Mac.attlocal.net";
+	private $user = "metube";
+	private $pwd = "metube_database";
+	private $dbName = "metube";
 
 	protected function connect(){
 		$dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbName;

@@ -429,7 +429,12 @@ function sizeof_both($keywords, $category){
 	return sizeof($GLOBALS['d']->query($keyword_string, $keywords));
 }
 function liked($id){
-	return $GLOBALS['d']->query('select count(*) as c from fav where mediaid = ? and username = ?', [$id, $_SESSION['username']])[0]['c'];
+	if(isset($_SESSION['username'])){
+		return $GLOBALS['d']->query('select count(*) as c from fav where mediaid = ? and username = ?', [$id, $_SESSION['username']])[0]['c'];
+	}else{
+		return 0;
+	}
+	
 }
 function insert_like($id){
 	$GLOBALS['d']->insert('insert into fav values (?, ?)', [$id, $_SESSION['username']]);
