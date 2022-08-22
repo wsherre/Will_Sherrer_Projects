@@ -18,7 +18,7 @@ php -S 127.0.0.1:8000
 From there go to [127.0.0.1:8000](127.0.0.1:8000) which will take you to the home page.
 
 
-#Background 
+# Background 
 
 This project was created for a Database Management course. In this course we learned how to create,
 effectively design, manage, and use MySQL databases. 
