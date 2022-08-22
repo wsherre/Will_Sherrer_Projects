@@ -110,9 +110,6 @@ class Connection(pymysql.connections.Connection):
         self.args = args
         self.kwargs = kwargs
 
-    def __enter__():
-        return self
-
     def __exit__(self, exc, value, traceback):
         """
         Overwrite the __exit__() method of pymysql.connections.Connection
