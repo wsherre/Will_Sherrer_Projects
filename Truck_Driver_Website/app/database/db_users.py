@@ -20,7 +20,7 @@ def getConnection(ex=0):
         pool1.__del__()
         pool1 = ConnectionPool(size = 5, name = 'pool1', **config )
     else:
-        print(pool1.size())
+        #print(pool1.size())
         return pool1.get_connection()
 
 '''
@@ -690,7 +690,7 @@ class Admin(AbsUser):
         query = "UPDATE admin SET active = 0 WHERE admin_id=%s"
         vals = (self.properties['id'], )
         try:
-            self.database.exec(user_query, user_vals)
+            self.database.exec(query, vals)
             self.database.exec(query, vals)
             #self.database.close()
         except Exception as e:
@@ -1345,7 +1345,7 @@ class Sponsor(AbsUser):
         query = "UPDATE sponsor SET active = 0 WHERE sponsor_id=%s"
         vals = (self.properties['id'], )
         try:
-            self.database.exec(user_query, user_vals)
+            self.database.exec(query, vals)
             self.database.exec(query, vals)
             #self.database.close()
         except Exception as e:
@@ -1909,7 +1909,7 @@ class Driver(AbsUser):
         query = "UPDATE driver SET active = 0 WHERE driver_id=%s"
         vals = (self.properties['id'], )
         try:
-            self.database.exec(user_query, user_vals)
+            self.database.exec(query, vals)
             self.database.exec(query, vals)
             #self.database.close()
         except Exception as e:
