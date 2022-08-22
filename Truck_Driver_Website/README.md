@@ -21,7 +21,8 @@ python3 -m pip install -r requirements.txt
 # Environment Setup
 There are two servers that need to be setup prior to running this: nginx and gunicorn. Nginx will be through a server config file, and gunicorn through a systemd service file
 
-If you plan to run this on localhost, load `project-backup-final.sql` into a mysql database and update the enviroment variables in the .env file.
+If you plan to run this on localhost, load `project-backup-final.sql` into a mysql database.
+Create a .env file which will have the same format to the `.env.example` file. 
 Then run `incentive_program.py` which will launch a temporary server from your machine which can be used to test/view the website.
 
 ## Nginx Setup
