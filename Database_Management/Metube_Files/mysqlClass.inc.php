@@ -1,6 +1,6 @@
 <?php
 class dbh{
-	private $host = "Wills-Mac.attlocal.net";
+	private $host = "Wills-Mac.local";
 	private $user = "metube";
 	private $pwd = "metube_database";
 	private $dbName = "metube";
