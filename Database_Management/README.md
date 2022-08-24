@@ -11,6 +11,8 @@ others.
 The website can be run by loading the contents in
 `Metube_Files/database.sql` into a MySQL database. 
 
+Load the database information into the file ```mysqlClass.inc.php```
+
 While in the Metube_Files folder, start a php server with the following command:
 ```
 php -S 127.0.0.1:8000
