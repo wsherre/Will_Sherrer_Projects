@@ -9,10 +9,7 @@ Emphasis: Networking, Systems, CyberSecurity
 Depth: Data Science, Software Engineering
 
 # Languages
-## Experience with
+### Experience with
 * Javascript, HTML, PHP, CSS, Java, C#
-## More Proficient
+### More Proficient
 * C, C++, Python, MySQL
-
-# Projects
-
