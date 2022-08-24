@@ -4,11 +4,11 @@ This does not cover all of my experience with programming that I have gained, ra
 this repo contains the bigger projects that I have worked on individually and in teams.
 
 # Education
-Masters in Computer Science at Clemson University - Decemeber, 2022<br>
+Masters in Computer Science at Clemson University - December, 2022<br>
 Emphasis: Networking, Systems, CyberSecurity<br>
 Depth: Data Science, Software Engineering
 
-BS - Computer Science at Clemson University - December 2021<br>
+BS - Computer Science at Clemson University - December, 2021<br>
 Minor: Cybersecurity
 
 # Languages
