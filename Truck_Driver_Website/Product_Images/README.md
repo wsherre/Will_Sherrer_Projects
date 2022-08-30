@@ -2,4 +2,4 @@
 ![Logon](Logon.png "Logon")
 
 ## Admin - Generate Reports
-!(admin_generate_reports.png)
+![](admin_generate_reports.png)
